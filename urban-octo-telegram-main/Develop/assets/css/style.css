@@ -1,7 +1,8 @@
+
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+       
 }
 
 body {
@@ -48,6 +49,7 @@ a {
 
 p {
     font-size: 16px;
+    margin-bottom: 18px;
 }
 
 .hero {
@@ -86,6 +88,13 @@ p {
     background-color: #2589bd;
 }
 
+aside {
+    margin-bottom: 32px;
+    color: #ffffff;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Code below consolidated into aside
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,7 +124,9 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
+/* THE Code below does not appear to change any of the images and can be removed
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,6 +144,16 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+*/
+article {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Consolidated Code to Article class
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -160,7 +181,11 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+*/
+img {
+    max-height: 200px;
+}
+/* Consolidated into img
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -172,7 +197,12 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
-
+*/
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Consolidated into h2
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -187,7 +217,7 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+*/
 .footer {
     padding: 30px;
     clear: both;
